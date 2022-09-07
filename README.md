@@ -38,13 +38,21 @@ E' quindi possibile creare manualmente il proprio dataset per puntare gli script
 
 ## check.mx.sh
 
-Questo script verifica dove sono puntati gli MX del dominio della PA. Va alla ricerca di servizi ospitati da Google e Microsoft. Restituisce una lista facilmente parsabile.
+Verifica dove sono puntati gli MX del dominio target (linea Web). Va alla ricerca di servizi ospitati da Google e Microsoft. Restituisce una lista facilmente parsabile.
 
 ```
 bash check.mx.sh /yourpath/dataset.tsv | tee -a /yourpath/mx.log
 ```
 
+## check.iplocation.sh
 
+Verifica attraverso un servizio esterno la collacazione fisica e il fornitore del dominio target (linea Web). Restituisce un file per ogni dominio analizzato che contiene un JSON. Lo script si appoggia al servizio ipinfo.io che offre free tier sufficiente per analizzare tutti i domini nel dataset enti.
 
+```
+mkdir -p /yourpath/outputdir
+bash check.iplocation.sh /yourpath/dataset.tsv /yourpath/outputdir
+```
 
+# Analisi dei dati raccolti
 
+I dati raccolti possono essere facilmente analizzati con strumenti standard come grep, sed e awk. 
