@@ -9,13 +9,13 @@ Il progetto è aperto a contributi e tutto il codice distribuito secondo i termi
 I dataset possono essere ottenuti dal succitato progetto MonitoraPA, ovvero seguendo queste istruzioni da aggiustare al caso.
 
 ```bash
-sudo apt-get install python3 unzip curl
-git clone https://github.com/MonitoraPA/monitorapa.git
-cd monitorapa
-pip install -r requirements.txt
-python3 cli/data/enti/download.py
+$ sudo apt-get install python3 unzip curl
+$ git clone https://github.com/MonitoraPA/monitorapa.git
+$ cd monitorapa
+$ pip install -r requirements.txt
+$ python3 cli/data/enti/download.py
 (restituisce un path tipo out/enti/1970-01-01/enti.tsv)
-python3 cli/data/enti/normalize.py out/enti/1970-01-01/enti.tsv
+$ python3 cli/data/enti/normalize.py out/enti/1970-01-01/enti.tsv
 (restituisce un path tipo out/enti/1970-01-01/dataset.tsv)
 ```
 
@@ -33,3 +33,5 @@ PCM	Email	usg@mailbox.governo.it
 ```
 
 E' quindi possibile creare manualmente il proprio dataset per puntare gli script su specifici target.
+
+
