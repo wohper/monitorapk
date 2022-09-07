@@ -34,4 +34,17 @@ PCM	Email	usg@mailbox.governo.it
 
 E' quindi possibile creare manualmente il proprio dataset per puntare gli script su specifici target.
 
+# Script disponibili
+
+## check.mx.sh
+
+Questo script verifica dove sono puntati gli MX del dominio della PA. Va alla ricerca di servizi ospitati da Google e Microsoft. Restituisce una lista facilmente parsabile.
+
+```
+bash check.mx.sh /yourpath/dataset.tsv | tee -a /yourpath/mx.log
+```
+
+
+
+
 
