@@ -36,6 +36,8 @@ PCM	Email	usg@mailbox.governo.it
 
 # Script disponibili
 
+Oltre altri script, è anche disponibile una pagina di [suggerimenti e idee](TIPS.md).
+
 ## check.mx.sh
 
 Verifica dove sono puntati gli MX del dominio target (linea Web). Va alla ricerca di servizi ospitati da Google e Microsoft. Restituisce una lista facilmente parsabile.
