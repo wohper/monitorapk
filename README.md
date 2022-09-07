@@ -32,7 +32,7 @@ PCM	Web	http://www.governo.it
 PCM	Email	usg@mailbox.governo.it
 ```
 
-E' quindi possibile creare manualmente il proprio dataset per puntare gli script su specifici target.
+È quindi possibile creare manualmente il proprio dataset per puntare gli script su specifici target.
 
 # Script disponibili
 
