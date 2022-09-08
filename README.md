@@ -1,10 +1,20 @@
 # Monitora Pocket Knife
 
-`MonitoraPK` è un progetto complementare a [MonitoraPA](https://github.com/MonitoraPA/monitorapa) e nato per fornire strumenti veloci e di supporto per il monitoraggio dei siti della PA. In generale, `MonitoraPK` è compatibile in input con i dataset prodotti dai software di MonitoraPA, che ne mantengono [la licenza non open-source](https://github.com/MonitoraPA/monitorapa/blob/main/LICENSE.txt).
+`MonitoraPK` è un progetto complementare a [MonitoraPA](https://github.com/MonitoraPA/monitorapa) e nato per fornire strumenti veloci e di supporto per il monitoraggio dei siti della PA. 
 
 MonitoraPK è aperto a contributi e tutto il codice distribuito secondo i termini di [GPLv3](LICENSE).
 
 # I dataset in input
+
+Il dataset può essere ottenuto con lo script `get.dataset.php`:
+
+```
+php get.dataset.php /tmp/dataset.$(date --iso).tsv
+...
+Ho trovato 22884 record. 753 non hanno un sito associato
+Ho rimosso i file temporanei
+Il tuo dataset è disponibile qui: `/tmp/dataset.2022-09-08.tsv`.
+```
 
 I dataset possono essere costruiti come un file di testo del tipo:
 
