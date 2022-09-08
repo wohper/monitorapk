@@ -1,7 +1,6 @@
 # Monitora Pocket Knife
 
-`MonitoraPK` è un progetto complementare a [MonitoraPA](https://github.com/MonitoraPA/monitorapa) e nato per fornire strumenti veloci e di supporto per il monitoraggio dei siti della PA. In generale, `MonitoraPK` è compatibile in input con i dataset di MonitoraPA.
-NOTA BENE: tali dataset sono distribuiti sotto [Hacking License](https://github.com/MonitoraPA/monitorapa/blob/main/LICENSE.txt), una licenza / shrink wrap contract di tipo copyleft molto forte che si applica sia al software che a qualsiasi output che tale software produca.
+`MonitoraPK` è un progetto complementare a [MonitoraPA](https://github.com/MonitoraPA/monitorapa) e nato per fornire strumenti veloci e di supporto per il monitoraggio dei siti della PA. In generale, `MonitoraPK` è compatibile in input con i dataset prodotti dai software di MonitoraPA, che ne mantengono [la licenza non open-source](https://github.com/MonitoraPA/monitorapa/blob/main/LICENSE.txt).
 
 MonitoraPK è aperto a contributi e tutto il codice distribuito secondo i termini di [GPLv3](LICENSE).
 
