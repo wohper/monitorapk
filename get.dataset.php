@@ -1,4 +1,8 @@
 <?php
+/**
+ * Questo è uno script prototipo per ottenere un dataset da indicepa.gov.it
+ * Author: wohper
+ */
 
 $datasetFilename = $argv[1];
 $endPoint = 'https://indicepa.gov.it/ipa-dati/datastore/dump/d09adf99-dc10-4349-8c53-27b1e5aa97b6?bom=True&format=tsv';
