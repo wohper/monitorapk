@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author: github.com/wohper
 
-TOKEN="YOUR TOKEN HERE"
+TOKEN=$(awk -F'=' '/^TOKEN/ { print $2 }' .env)
 DATASET=$1;
 DATAOUT=$2;
 

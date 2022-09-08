@@ -45,11 +45,19 @@ bash check.mx.sh /yourpath/dataset.tsv | tee -a /yourpath/mx.log
 
 ## check.iplocation.sh
 
-Verifica attraverso un servizio esterno la collacazione fisica e il fornitore del dominio target (linea Web). Restituisce un file per ogni dominio analizzato che contiene un JSON. Lo script si appoggia al servizio ipinfo.io che offre free tier sufficiente per analizzare tutti i domini nel dataset enti.
+Per seguire lo script è necessario impostare il proprio TOKEN nel file `.env`, per fare questo basta eseguire:
+
+```sh
+$ echo 'TOKEN="il tuo token"' > .env
+```
+
+Verifica attraverso un servizio esterno la collacazione fisica e il fornitore del dominio target (linea Web). 
+
+Restituisce un file per ogni dominio analizzato che contiene un JSON. Lo script si appoggia al servizio ipinfo.io che offre free tier sufficiente per analizzare tutti i domini nel dataset enti.
 
 ```
-mkdir -p /yourpath/outputdir
-bash check.iplocation.sh /yourpath/dataset.tsv /yourpath/outputdir
+$ mkdir -p /yourpath/outputdir
+$ bash check.iplocation.sh /yourpath/dataset.tsv /yourpath/outputdir
 ```
 
 # Analisi dei dati raccolti
